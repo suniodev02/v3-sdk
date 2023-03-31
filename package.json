@@ -1,11 +1,11 @@
 {
-  "name": "@uniswap/v3-sdk",
+  "name": "@sunswap/sun-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "version": "3.9.0",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
+  "description": "⚒️ An SDK for building applications on top of SUN.io",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -16,7 +16,7 @@
     "uniswap",
     "ethereum"
   ],
-  "module": "dist/v3-sdk.esm.js",
+  "module": "dist/sunio-sdk.esm.js",
   "scripts": {
     "build": "tsdx build",
     "start": "tsdx watch",
@@ -34,6 +34,7 @@
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
+    "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
     "@uniswap/v3-core": "1.0.0",
     "tsdx": "^0.14.1"
